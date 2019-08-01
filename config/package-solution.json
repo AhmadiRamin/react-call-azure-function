@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-call-azure-function-client-side-solution",
+    "id": "70bb4be8-56c3-424e-b386-995d4f7c3386",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "webApiPermissionRequests": [
+      {
+        "resource": "cc-lob-app",
+        "scope": "user_impersonation"
+      }
+    ],
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/react-call-azure-function.sppkg"
+  }
+}
